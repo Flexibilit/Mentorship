@@ -1,0 +1,4 @@
+docker run --name some-postgres -e POSTGRES_PASSWORD=6696 -d postgres
+
+
+docker run -p 8080:80 -name Taxi -e 'PGADMIN_DEFAULT_EMAIL=laprofesaxrist@gmail.com' -e 'PGADMIN_DEFAULT_PASSWORD=6696'  -d dpage/pgadmin4
